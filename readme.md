@@ -1,17 +1,24 @@
-# WebApiDotNet8
+📩 WebApiDotNet8 - API REST em .NET 8  
+Este projeto é uma API REST construída em **.NET 8 / ASP.NET Core**, servindo como base para desenvolvimento de aplicações backend. Ele expõe endpoints CRUD, suporta validação de dados e fornece documentação interativa via Swagger.  
 
-Projeto de exemplo / base para construir APIs REST usando .NET 8 e ASP.NET Core.
+🧰 Tecnologias Utilizadas  
+- .NET 8  
+- ASP.NET Core Web API  
+- Swagger / OpenAPI  
+- Injeção de Dependência  
+- (Opcional) Persistência com Entity Framework Core ou outro ORM  
 
-## Principais funcionalidades
+📌 Funcionalidades  
+- CRUD de entidades via endpoints REST  
+- Validação de dados de entrada  
+- Documentação e testes interativos com Swagger  
+- Suporte a middlewares (CORS, logging, tratamento de erros, autenticação)  
 
-- Endpoints via controllers (CRUD, consultas, filtros etc.)
-- Validação de dados de entrada
-- Documentação interativa com Swagger / OpenAPI
-- Configuração de middlewares (ex: tratamento de exceções, CORS, logging)
-- Injeção de dependência para componentes de serviço
-- Estrutura bem organizada para expansão futura
+🚀 Execução  
+```bash
+dotnet run --project WebApi
 
-## Requisitos
+🔐 Autorização
+A API pode ser expandida para suportar autenticação/autorização (ex.: JWT), conforme necessidade do projeto.
 
-- .NET 8 SDK instalado  
-- (Opcional) Banco de dados configurado — SQL Server, PostgreSQL, SQLite etc.
+
